@@ -1,4 +1,6 @@
-# go-Zeug
+# go-zeug
+
+[![GoDoc](https://godoc.org/github.com/demaggus83/go-zeug?status.svg)](https://godoc.org/github.com/demaggus83/go-zeug) [![Go Report Card](https://goreportcard.com/badge/github.com/demaggus83/go-zeug)](https://goreportcard.com/report/github.com/demaggus83/go-zeug)
 
 It's a small stdlib only collection of tools, libs and helpers for go >=1.13.   
 
@@ -6,7 +8,7 @@ It's a small stdlib only collection of tools, libs and helpers for go >=1.13.
 
 ## Packages
 
-### pkg/env
+### env
 
 Package env provides a type for the current runtime environment (not env vars!).
 
@@ -14,7 +16,7 @@ The idea is to initialize the Env very early in your code to make decisions base
 Because Env is implementing the Unmarshaler interface it's compatible with 
 [envconfig](https://github.com/vrischmann/envconfig) and that's the idea how to use it.
 
-### pkg/slice
+### slice
 
 Package slice provides some helper methods for working with slices..
 
@@ -24,7 +26,7 @@ HasType(t Type) bool
 ```
 methods. When generics arriving this package is going to shrink ;)
 
-### pkg/sql
+### sql
 
 Package sql have some helpers and types for sql.  
 Currently there is just the "Scanner" interface defined.
@@ -34,7 +36,7 @@ type Scanner interface {
 }
 ```
 
-### pkg/sqlite
+### sqlite
 
 Package sqlite have some helpers and types for working with sqlite.
   
@@ -61,7 +63,7 @@ BEGIN
 END;
 ```
 
-### pkg/test
+### test
 
 Package test provides some helpers and vars usefully for testing.
 
@@ -103,6 +105,9 @@ var (
 See godoc ;)
 
 ## Changelog
+
+### 0.1.1
++ fixes some refactoring problems
 
 ### 0.1.0
 + initial release

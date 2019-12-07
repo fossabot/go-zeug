@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/demaggus83/go-zeug/pkg/slice"
-	"github.com/demaggus83/go-zeug/pkg/test"
+	"github.com/demaggus83/go-zeug/slice"
+	"github.com/demaggus83/go-zeug/test"
 )
 
 func ExampleHasString() {

@@ -18,7 +18,7 @@ package env
 import (
 	"fmt"
 
-	"github.com/demaggus83/go-zeug/pkg/slice"
+	"github.com/demaggus83/go-zeug/slice"
 )
 
 const (

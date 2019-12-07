@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/demaggus83/go-zeug/pkg/sqlite"
-	"github.com/demaggus83/go-zeug/pkg/test"
+	"github.com/demaggus83/go-zeug/sqlite"
+	"github.com/demaggus83/go-zeug/test"
 )
 
 func TestSQLTimeFromTime(t *testing.T) {

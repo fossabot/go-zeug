@@ -3,8 +3,8 @@ package env_test
 import (
 	"testing"
 
-	"github.com/demaggus83/go-zeug/pkg/env"
-	"github.com/demaggus83/go-zeug/pkg/test"
+	"github.com/demaggus83/go-zeug/env"
+	"github.com/demaggus83/go-zeug/test"
 )
 
 func ExampleEnv() {
