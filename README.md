@@ -1,6 +1,7 @@
 # go-zeug
 
 [![GoDoc](https://godoc.org/github.com/demaggus83/go-zeug?status.svg)](https://godoc.org/github.com/demaggus83/go-zeug) [![Go Report Card](https://goreportcard.com/badge/github.com/demaggus83/go-zeug)](https://goreportcard.com/report/github.com/demaggus83/go-zeug)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdemaggus83%2Fgo-zeug.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdemaggus83%2Fgo-zeug?ref=badge_shield)
 
 It's a small stdlib only collection of tools, libs and helpers for go >=1.13.   
 
@@ -111,3 +112,7 @@ See godoc ;)
 
 ### 0.1.0
 + initial release
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdemaggus83%2Fgo-zeug.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdemaggus83%2Fgo-zeug?ref=badge_large)
